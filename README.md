@@ -3,7 +3,8 @@
 This is a fairly basic bot I wrote in Python for some fun and to test [HoNCore](https://github.com/Joev-/HoNCore) while writing it.
 It's main function is to observe, learn and respond using a Markov Chain Algorithm via a Python project called [MegaHAL](http://megahal.alioth.debian.org/).
 
-I am releasing it here in the hope that it will be useful to others for learning and using, as I will no longer be using it or actively devloping it.
+As I am no longer playing HoN I wish to release the code for this to the public so that they can learn from it and if they wish to, are
+fully free to use it as they please.
 
 During the first few days what it says may not be very interesting, it's a good idea to leave it for a week before letting it speak.
 
