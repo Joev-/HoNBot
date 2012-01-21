@@ -16,12 +16,10 @@ The configuration for the bot is fairly simple. It is all stored in and read fro
 Copy `config.example.py` to `config.py` and edit the settings to fit your needs.
 
 * `username` Should be the username of the HoN account that the bot will log in using.
-* `password` The password to the aformentioned account.
+* `password` The password to the aforementioned account.
 * `protocol` The current chat version protocol. You will need to update this after most 'large' patches.
 * `invis_mode` Set to True if you want the bot to log in using the 'invisible' mode. You probably don't want to unless testing.
-
 * `channels` A python dictionary of channels the bot will autojoin and the settings for that channel. Follow the same format as given in the exaple.
-
 * `owners` A list of people who will have the ability to give bots commands.
 * `replyrate` How likely the bot will be to respond to messages. The value is a percentage, so 5 would be a 5% chance to respond.
 * `replynick` The reply rate for when someone says the bot's name in the channel.
