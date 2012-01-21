@@ -13,7 +13,6 @@ I no longer work with it, or any of my HoN projects, so I'm not sure.
 ## Config.py
 
 The configuration for the bot is fairly simple. It is all stored in and read from the config.py file.
-
 Copy `config.example.py` to `config.py` and edit the settings to fit your needs.
 
 * `username` Should be the username of the HoN account that the bot will log in using.
@@ -28,9 +27,7 @@ Copy `config.example.py` to `config.py` and edit the settings to fit your needs.
 ## Commands
 
 As this bot was fairly basic there are not that many commands yet, just a few basic ones to keep the bot under control.
-
 Commands can be sent to the bot via whisper/pm or given in any channel the bot is in.
-
 Only owners will be able to give commands.
 
 * `!join channelname` Causes the bot to join the given channel.
