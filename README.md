@@ -10,6 +10,11 @@ During the first few days what it says may not be very interesting, it's a good 
 I also seem to remember there being a bug where the bot would not follow his reply rate setting, but I think I may have fixed that.
 I no longer work with it, or any of my HoN projects, so I'm not sure.
 
+## Requirements
+
+* [MegaHAL](http://megahal.alioth.debian.org) - For the learning and talking bot functions.
+* [HoNCore](http://github.com/Joev-/HoNCore) - For the chat server connectivity.
+
 ## Config.py
 
 The configuration for the bot is fairly simple. It is all stored in and read from the config.py file.  
@@ -37,3 +42,31 @@ Only owners will be able to give commands.
 * `!replyrate value` Sets the reply rate for all messages to the following value, **do not** append a '%' character.
 * `!shutup` Forces the bot to stop responding to messages.
 * `!speak` Allows the bot to respond to messages.
+
+## License
+
+_This is free and unencumbered software released into the public domain._
+
+_Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means._
+
+_In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law._
+
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE._
+
+_For more information, please refer to <http://unlicense.org/>_
+
