@@ -1,4 +1,4 @@
-import sys, time, signal, re
+1import sys, time, signal, re
 from hashlib import md5
 from random import randint, uniform
 
@@ -241,11 +241,6 @@ class HoNBotClient(HoNClient):
                 else:
                     owner = 0
                 return f(source, target, args, owner)
-        #elif message[0] == "?":
-            ## A query
-            #query = message[1:].split(" ")[0]
-            #args = message[2 + len(query):]
-            #log.debug("(Query) %s: %s" % (query, ''.join(args)))
         else:
             # If the bot is allowed to learn then let it learn!
             if (target in self.channels and self.channels[target]['learning']) or event == MSG_P or event == MSG_W:
@@ -343,11 +338,6 @@ def main():
     processing events.
     Disconnects should be caught and automatic re-connection
     can be handled.
-
-    Process:
-        1. Attempt to log in.
-        2. Attempt to connect.
-        3. Troll noobies!
     """
     honbot = HoNBot('bot-brain')
     client = HoNBotClient(honbot)
