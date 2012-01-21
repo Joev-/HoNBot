@@ -1,7 +1,7 @@
 #Python HoN Bot
 
-This is a fairly basic bot I wrote in Python for some fun and to test [HoNCore]https://github.com/Joev-/HoNCore while writing it.
-It's main function is to observe, learn and respond using a Markov Chain Algorithm via a Python project called [MegaHAL]http://megahal.alioth.debian.org/.
+This is a fairly basic bot I wrote in Python for some fun and to test [HoNCore](https://github.com/Joev-/HoNCore) while writing it.
+It's main function is to observe, learn and respond using a Markov Chain Algorithm via a Python project called [MegaHAL](http://megahal.alioth.debian.org/).
 
 I am releasing it here in the hope that it will be useful to others for learning and using, as I will no longer be using it or actively devloping it.
 
